@@ -20,10 +20,10 @@ Após concluir o curso **Tailwind CSS do Básico ao Avançado + Projetos**, da C
 ### 🚀 UI e Deploy
 <div align="center">
 <p >
-  <img src="./src/img/screen.webp" width="430px" alt="Captura de tela do projeto" style="border: none;">
+  <img src="./src/img/screen.webp" width="650px" alt="Captura de tela do projeto" style="border: none;">
 </p>
 
-[→ Ver Projeto On-line 🔗](https://clone-lp-spotify-tailwind-css.vercel.app/)
+[→ Ver Projeto On-line 🔗](https://clone-login-airbnb.vercel.app/)
 
 </div>
 
