@@ -14,13 +14,14 @@
 <h1 align="center">Clone Login Airbnb</h1>
 
 ---
+
 ### 🧭 Navegação Rápida
 
-- [📝 Sobre](#-sobre)
-- [🚀 UI e Deploy](#-ui-e-deploy)
-- [🧩 Principais Dependências](#-principais-dependências)
-- [▶️ Como Configurar o Projeto no VS Code](#️-como-configurar-o-projeto-no-vs-code)
-- [🤝 Contribuição](#-contribuição)
+- 📝 [Sobre](#-sobre)
+- 🚀 [UI e Deploy](#-ui-e-deploy)
+- 🧩 [Principais Dependências](#-principais-dependências)
+- ▶️ [Como Configurar o Projeto no VS Code](#️-como-configurar-o-projeto-no-vs-code)
+- 🤝 [Contribuição](#-contribuição)
 
 ---
 
