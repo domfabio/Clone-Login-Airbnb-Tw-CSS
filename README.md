@@ -13,6 +13,18 @@
 
 <h1 align="center">Clone Login Airbnb</h1>
 
+---
+### 🧭 Navegação Rápida
+
+- [📝 Sobre](#-sobre)
+- [🚀 UI e Deploy](#-ui-e-deploy)
+- [🧩 Principais Dependências](#-principais-dependências)
+- [▶️ Como Configurar o Projeto no VS Code](#️-como-configurar-o-projeto-no-vs-code)
+- [🤝 Contribuição](#-contribuição)
+- [📄 Licença](#este-projeto-é-distribuído-sob-a-open-source-license---mit)
+
+---
+
 ### 📝 Sobre
 Após concluir o curso **Tailwind CSS do Básico ao Avançado + Projetos**, da Comunidade Hora de Codar, em um dos projetos — que consistia na criação da página de login do Facebook — me desafiei a desenvolver um projeto semelhante, porém mais complexo, a fim de exercitar e aplicar diversas funcionalidades do **Tailwind CSS 4**.
 
