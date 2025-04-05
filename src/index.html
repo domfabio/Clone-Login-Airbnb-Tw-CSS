@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./img/icon.svg" />
+    <link rel="stylesheet" href="./css/output.css" />
+    <script src="./js/button-hover.js" defer></script>
+    <title>Clone Airbnb - Login</title>
+  </head>
+  <body class="font-sans text-neutral-700">
+    <header
+      class="sticky top-0 z-[999] flex h-20 w-full border-b-2 border-b-gray-100 bg-white px-4"
+    >
+      <div
+        class="mx-auto flex flex-row items-center justify-between sm:container xl:max-w-7xl"
+      >
+        <a href="#">
+          <img
+            src="./img/logo-airbnb.svg"
+            alt="logo-airbnb"
+            class="w-28 self-center"
+          />
+        </a>
+        <nav class="hidden flex-row items-center sm:flex">
+          <button
+            class="cursor-pointer rounded-full px-4 py-2.5 font-semibold tracking-tighter transition duration-500 hover:bg-gray-100"
+          >
+            Anuncie seu espaço no Airbnb
+          </button>
+          <button
+            class="cursor-pointer rounded-full px-3 py-3 transition duration-500 hover:bg-gray-100"
+          >
+            <span class="icon-[lucide--globe] flex h-5 w-5"></span>
+          </button>
+          <button
+            class="ml-3 flex cursor-pointer flex-row items-center gap-3 rounded-full border-[1px] border-neutral-200 px-2 py-2 transition duration-500 hover:shadow-md"
+          >
+            <a href="#"
+              ><span class="icon-[mdi--hamburger-menu] ml-2 flex h-5 w-5"></span
+            ></a>
+            <a href="#"
+              ><span
+                class="icon-[mingcute--user-4-fill] flex h-9 w-9 text-neutral-500"
+              ></span
+            ></a>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="px-4 py-10">
+        <div
+          class="mx-auto mt-20 flex w-full flex-col items-center rounded-2xl border-[1px] border-neutral-400 sm:max-w-[600px]"
+        >
+          <h3
+            class="flex h-16 w-full items-center justify-center border-b-1 border-b-neutral-200 text-lg font-bold tracking-tighter"
+          >
+            Entrar ou cadastrar-se
+          </h3>
+
+          <div class="flex w-full flex-col p-4 sm:p-8">
+            <h4 class="mt-2 mb-5 text-2xl font-semibold tracking-tight">
+              Bem-vindo ao Airbnb
+            </h4>
+            <form class="rounded-lg bg-white">
+              <div
+                class="rounded-t-lg border-[1px] border-b-0 border-neutral-700 p-3"
+              >
+                <label
+                  class="ml-1 block text-sm text-neutral-500"
+                  for="category"
+                >
+                  País/Região
+                </label>
+                <select
+                  id="category"
+                  class="w-full cursor-pointer rounded border-none pl-0 text-lg focus:outline-none"
+                >
+                  <option value="opcao1">Brasil (+55)</option>
+                  <option value="opcao2">Argentina (+54)</option>
+                  <option value="opcao3">Cuba (+53)</option>
+                </select>
+              </div>
+              <div
+                class="mb-2 rounded-b-lg border-[1px] border-neutral-700 p-3 pb-2"
+              >
+                <label class="ml-1 block text-sm text-neutral-500" for="phone">
+                  Número de telefone
+                </label>
+                <input
+                  id="phone"
+                  type="tel"
+                  placeholder="+55 (XX) XXXXX-XXXX"
+                  class="w-full rounded border-none pl-0 text-lg placeholder-gray-700 focus:outline-none"
+                />
+              </div>
+
+              <p class="text-xs">
+                Ligaremos ou enviaremos uma mensagem para confirmar seu número.
+                Podem ser aplicadas tarifas padrão de dados e mensagens.
+                <a href="#" class="font-semibold underline"
+                  >Política de Privacidade</a
+                >
+              </p>
+              <button
+                class="btn mt-4 mb-6 h-[52px] w-full cursor-pointer overflow-hidden rounded-lg bg-gradient-to-r from-[#E61E4D] via-[#E31C5F] to-[#D70466] text-lg font-semibold text-white transition-all duration-700"
+              >
+                Continuar
+              </button>
+            </form>
+            <div class="relative mt-4 mb-10 flex items-center justify-center">
+              <hr class="w-full border-gray-200" />
+              <span class="absolute bg-white px-2 text-xs font-semibold"
+                >OU</span
+              >
+            </div>
+            <button
+              class="mb-4 flex w-full cursor-pointer flex-row items-center rounded-lg border-[1px] border-neutral-700 p-3 transition duration-300 hover:bg-neutral-100"
+            >
+              <span class="icon-[logos--google-icon] h-6 w-6"></span>
+              <p class="mx-auto text-base font-semibold tracking-tight">
+                Continuar com Google
+              </p>
+            </button>
+            <button
+              class="mb-4 flex w-full cursor-pointer flex-row items-center rounded-lg border-[1px] border-neutral-700 p-3 transition duration-300 hover:bg-neutral-100"
+            >
+              <span class="icon-[bi--apple] h-6 w-6"></span>
+              <p class="mx-auto text-base font-semibold tracking-tight">
+                Continuar com Apple
+              </p>
+            </button>
+            <button
+              class="mb-4 flex w-full cursor-pointer flex-row items-center rounded-lg border-[1px] border-neutral-700 p-3 transition duration-300 hover:bg-neutral-100"
+            >
+              <span class="icon-[fluent--mail-32-regular] h-6 w-6"></span>
+              <p class="mx-auto text-base font-semibold tracking-tight">
+                Continuar com email
+              </p>
+            </button>
+            <button
+              class="flex w-full cursor-pointer flex-row items-center rounded-lg border-[1px] border-neutral-700 p-3 transition duration-300 hover:bg-neutral-100"
+            >
+              <span class="icon-[logos--facebook] h-6 w-6"></span>
+              <p class="mx-auto text-base font-semibold tracking-tight">
+                Continuar com Facebook
+              </p>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <a
+        href="#"
+        class="container mx-auto flex flex-row justify-center pb-10 text-base font-medium underline underline-offset-2 sm:hidden"
+        >Precisa de ajuda?</a
+      >
+    </main>
+
+    <nav
+      class="sticky bottom-0 z-[999] mx-auto flex w-full justify-center gap-5 border-t-2 border-t-gray-100 bg-white px-4 tracking-tight text-neutral-500 sm:hidden"
+    >
+      <div class="flex cursor-pointer flex-col items-center p-4">
+        <span class="icon-[mage--search] mb-2 flex h-6 w-6"></span>
+        <p class="text-xs">Explorar</p>
+      </div>
+      <div class="flex cursor-pointer flex-col items-center p-4">
+        <span class="icon-[si--heart-line] mb-2 flex h-6 w-6"></span>
+        <p class="text-xs">Favoritos</p>
+      </div>
+      <div class="flex cursor-pointer flex-col items-center p-4 text-[#D70466]">
+        <span
+          class="icon-[solar--user-circle-outline] mb-2 flex h-6 w-6"
+        ></span>
+        <p class="text-xs font-semibold">Entrar</p>
+      </div>
+    </nav>
+
+    <footer class="bg-neutral-100 px-4">
+      <div
+        class="container mx-auto hidden border-b-1 border-neutral-200 py-10 sm:grid md:grid-cols-3 xl:max-w-[1440px]"
+      >
+        <div class="pt-10 md:mr-8 md:pt-4">
+          <h3 class="mb-4 font-semibold tracking-tight">Atendimento</h3>
+          <ul class="inline-block">
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Central de Ajuda</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">AirCover</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Antidiscriminação</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Apoio à pessoa com deficiência</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Opções de cancelamento</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Reporte um problema no bairro</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="pt-10 md:mr-8 md:pt-4">
+          <h3 class="mb-4 font-semibold tracking-tight">Hospedagem</h3>
+          <ul class="inline-block">
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Anuncie seu espaço no Airbnb</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">AirCover para anfitriões</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Recursos para anfitriões</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Fórum da comunidade</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Hospedagem responsável</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Participe de uma aula gratuita de hospedagem</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Encontre um coanfitrião</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="pt-10 md:pt-4">
+          <h3 class="mb-4 font-semibold tracking-tight">Airbnb</h3>
+          <ul class="inline-block">
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Newsroom</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Novos recursos</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Carreiras</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Investidores</a>
+            </li>
+            <li
+              class="mb-4 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Locais emergenciais Airbnb.org</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="container mx-auto hidden flex-col items-center py-10 sm:flex sm:flex-wrap sm:justify-between md:flex-row xl:max-w-[1440px]"
+      >
+        <div class="flex divide-x-1 divide-neutral-300">
+          <p class="pr-2">© 2025 Airbnb, Inc.</p>
+          <ul class="flex divide-x-1 divide-neutral-300">
+            <li
+              class="px-2 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Privacidade</a>
+            </li>
+            <li
+              class="px-2 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Termos</a>
+            </li>
+            <li
+              class="px-2 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Mapa do site</a>
+            </li>
+            <li
+              class="px-2 md:decoration-0 md:hover:underline md:hover:underline-offset-2"
+            >
+              <a href="#">Informações da empresa</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="flex items-center sm:mt-8 md:mt-0">
+            <button
+              class="mr-3 flex transform cursor-pointer items-center rounded-xl px-4 py-2.5 font-semibold tracking-tighter transition duration-300 hover:bg-gray-200 md:hover:scale-105"
+            >
+              <span class="icon-[lucide--globe] mr-2 flex h-5 w-5"></span>
+              <span>Portugês BR</span>
+            </button>
+            <button
+              class="mr-5 transform cursor-pointer rounded-xl px-4 py-2.5 font-semibold tracking-tighter transition duration-300 hover:bg-gray-200 md:hover:scale-105"
+            >
+              R$ BRL
+            </button>
+            <a href="#"
+              ><span
+                class="icon-[ic--baseline-facebook] mr-3 flex h-5 w-5"
+              ></span
+            ></a>
+            <a href="#"
+              ><span class="icon-[ri--twitter-x-fill] mr-3 flex h-5 w-5"></span
+            ></a>
+            <a href="#"
+              ><span class="icon-[mdi--instagram] flex h-5 w-5"></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
