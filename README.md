@@ -29,7 +29,7 @@ Após concluir o curso **Tailwind CSS do Básico ao Avançado + Projetos**, da C
 
 ---
 
-### 🧩 Principais Dependencias
+### 🧩 Principais Dependências
 
 Este projeto foi construído com foco em produtividade, responsividade e boas práticas de estilização. As principais dependências utilizadas são:
 
@@ -40,6 +40,8 @@ Este projeto foi construído com foco em produtividade, responsividade e boas pr
 - **[Prettier](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)** com **prettier-plugin-tailwindcss** – Padronização e ordenação automática das classes CSS.
 
 Para a lista completa de dependências e versões, consulte o arquivo [`package.json`](./package.json).
+
+---
 
 ## ▶️ Como Configurar o Projeto no VS Code:
 
