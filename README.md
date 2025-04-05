@@ -1,6 +1,7 @@
 <div align="center">
 <img src="https://img.shields.io/static/v1?label=HTML&message=linguagem&color=orange&style=for-the-badge&logo=html5"/>
 <img src="https://img.shields.io/static/v1?label=Tailwind&message=CSS&color=1DA9BB&style=for-the-badge&logo=tailwindcss"/>
+<img src="https://img.shields.io/static/v1?label=JavaScript&message=linguagem&color=yellow&style=for-the-badge&logo=javascript"/>
 <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 <img src="https://img.shields.io/badge/License-MIT-2ecc71?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="Open Source License - MIT">
 </div>
