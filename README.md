@@ -21,7 +21,6 @@
 - [🧩 Principais Dependências](#-principais-dependências)
 - [▶️ Como Configurar o Projeto no VS Code](#️-como-configurar-o-projeto-no-vs-code)
 - [🤝 Contribuição](#-contribuição)
-- [📄 Licença](#este-projeto-é-distribuído-sob-a-open-source-license---mit)
 
 ---
 
