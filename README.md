@@ -5,7 +5,12 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 <img src="https://img.shields.io/badge/License-MIT-2ecc71?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="Open Source License - MIT">
 </div>
+
 <br>
+
+<div align="center">
+<img src="./src/img/logo-airbnb.svg" width="200px">
+</div>
 
 
 <h1 align="center">Clone Login Airbnb</h1>
