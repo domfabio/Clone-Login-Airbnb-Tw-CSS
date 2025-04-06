@@ -7,9 +7,6 @@
 </div>
 <br>
 
-<div align="center">
-<img src="./src/img/logo-airbnb.svg" width="200px">
-</div>
 
 <h1 align="center">Clone Login Airbnb</h1>
 
@@ -35,7 +32,7 @@ Após concluir o curso **Tailwind CSS do Básico ao Avançado + Projetos**, da C
   <img src="./src/img/screen.webp" width="650px" alt="Captura de tela do projeto" style="border: none;">
 </p>
 
-[→ Ver Projeto On-line 🔗](https://clone-login-airbnb.vercel.app/)
+[→ Ver Projeto On-line 🔗](https://study-ui-tailwind.vercel.app/)
 
 </div>
 
@@ -95,4 +92,11 @@ Clique com o botão direito no `index.html` e selecione **"Open with Live Server
 ---
 
 Este projeto é distribuído sob a [Open Source License - MIT](https://opensource.org/licenses/MIT). <br>Veja a documentação para mais detalhes.
+
+
+
+> ⚠️ **Aviso**  
+> Este projeto é **fictício** e desenvolvido apenas para **fins educacionais**.  
+> Nenhum dado é coletado. Não possui qualquer afiliação com a marca **Airbnb**.
+
 
