@@ -62,7 +62,7 @@ Para a lista completa de dependências e versões, consulte o arquivo [`package.
 ### 📌 Pré-requisitos
 Antes de prosseguir com a configuração, certifique-se de ter todos os pré-requisitos instalados corretamente para evitar erros durante a instalação e execução do projeto:
 
-`Git 2.4+` `Node.js 12+` `Live Server` `Tailwind CSS IntelliSense`
+`Git 2.4+` `Node.js 12+` `Live Server` `Tailwind CSS IntelliSense` `Prettier`
 
 
 ### ⚙️ Configurando o Projeto
